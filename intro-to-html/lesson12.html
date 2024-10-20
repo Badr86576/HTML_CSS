@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>lesson12-exercices</title>
+    <style>
+        .ex-12a{
+            display: flex;
+            flex-direction: row;
+        }
+
+        .items-1{
+            background-color: lightblue;
+            width: 200px;
+        }
+        .items-2{
+            background-color: lightpink;
+            width: 75px;
+        }
+    </style>
+    </head>
+    <body>
+        <div class="ex-12a">
+            <div class="items-1">200px</div>
+            <div class="items-2">75px</div>
+        </div>
+        <div style="display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+        ">
+            <div style="background-color: lightblue; width: 200px;">200px</div>
+            <div style="background-color: lightpink; width: 75px;">75px</div>
+        </div>
+<!-- ex-12b -->
+        <div style="display: flex;
+        flex-direction: row;
+        height: 20px;
+        margin-top: 30px;
+        ">
+            <div style="background-color: lightblue; width: 50px;">item1</div>
+            <div style="background-color: lightpink; flex: 1;">item2</div>
+            <div style="background-color: lightblue; width: 200px;">item3</div>
+
+        </div>
+<!-- ex-13c -->
+        <div style="display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        margin-top: 30px;
+        ">
+            <div style="background-color: lightpink;">item1</div>
+            <div style="background-color: lightpink;">item2</div>
+            <div style="background-color: lightpink;">item3</div>
+            <div style="background-color: lightpink;">item4</div>
+
+        </div>
+<!-- ex-13d -->
+        <div style="display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        border-style: solid;
+        border-width: 1px;
+        border-color: gray;
+        height: 50px;
+        margin-top: 30px;
+        margin-bottom: 50px;
+        ">
+            <div style="background-color: lightpink;">item1</div>
+            <div style="background-color: lightpink;">item2</div>
+
+        </div>
+<!-- ex-13e -->
+        <div style="border-width:1px;
+            border-style: solid;
+            border-color: gray;
+            border-radius: 8px;
+            padding: 0px 10px;
+            max-width: 500px;
+            font-family: Arial, Helvetica, sans-serif;
+            
+            ">
+            <div style="display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            height: 40px;
+            align-items: center;
+            ;">
+                 <div>Home</div>
+                 <div style="color: white;
+                  background-color:rgb(41,115, 236);
+                  border-radius: 15px;
+                  border: none;
+                  padding: 3px 10px;
+                 ">14</div>
+            </div>
+            <div style="display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            height: 40px;
+            align-items: center;
+            ;">
+                <div>Notification</div>
+                <div style="color: white;
+                 background-color:rgb(41,115, 236);
+                 border-radius: 15px;
+                 border: none;
+                 padding: 3px 10px;
+                ">3</div>
+            </div>
+            <div style="display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            height: 40px;
+            align-items: center;
+            ;">
+                <div>Messages</div>
+                <div style="color: white;
+                 background-color:rgb(41,115, 236);
+                 border-radius: 15px;
+                 border: none;
+                 padding: 3px 10px;
+                ">5</div>
+            </div>
+            
+        </div>
+
+    </body>
+</html>

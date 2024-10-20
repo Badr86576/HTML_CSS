@@ -1,0 +1,68 @@
+input{
+    display: block;
+    margin-bottom: 5px;
+}
+p {
+    width: 200px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.yes,
+.no{
+    display: inline-block;
+}
+img{
+    width: 300px;
+    display: block;
+    margin-left: 110px;
+}
+.search-bar{
+    width: 500px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+    border-width: 1px;
+    box-shadow: 0px 1px 3px gray;
+    font-size: 12px;
+    margin-bottom: 50px;
+}
+.first-name{
+    display: inline-block;
+    width: 120px;
+    border-radius: 5px;
+    border-width: 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+
+}
+.Email{
+    display: block;
+    border-radius: 5px;
+    border-width: 1px;
+    width: 265px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+
+}
+.Sign-up{
+    color: white;
+    background-color: rgb(47, 127, 231);
+    border: none;
+    border-radius: 5px;
+    border-width: 1px;
+    width: 288px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 18px;
+    font-weight: bold;
+
+}
