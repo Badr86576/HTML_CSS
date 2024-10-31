@@ -8,6 +8,7 @@
     top: 0;
     left: 0;
     right: 0;
+    z-index: 100;
 
     background-color: white;
     border-bottom-width: 1px; 
@@ -109,6 +110,21 @@ height: 24px;
 height: 24px;
 
 }
+.notif-icon-contenaire{
+position: relative;    
+    }
+.cont{
+    background-color: rgb(200, 0, 0);
+    color: white;
+    border-radius: 10px;
+    font-family: roboto, arial;
+    font-size: 11px;
+    padding: 2px 5px;
+    position: absolute;
+    top: -2px;
+    right: -5px;
+}
+
 .user-icon{
 height: 32px;
 border-radius: 20px;
