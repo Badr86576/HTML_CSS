@@ -43,9 +43,8 @@ align-items: center;
     height: 34px;
     padding-left: 15px;
     font-size: 16px;
-    border-width: 1px;
-    border-style: solid;
-    border-color: rgb(189, 186, 186);
+
+    border: 1px solid  rgb(189, 186, 186);
     border-radius: 2px;
     box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
     border-top-left-radius: 20px;
@@ -55,7 +54,6 @@ align-items: center;
 }
 
 .search-bar::placeholder{
-    font-family: roboto, arial;
     font-size: 16px;
 
 }
@@ -98,7 +96,6 @@ align-items: center;
     padding:  4px 8px;
     border-radius: 2px;
     font-size: 12px;
-    font-family: roboto, aial;
     bottom: -30px;
     opacity: 0;
     transition: opacity 0.15s;
@@ -159,7 +156,6 @@ position: relative;
     background-color: rgb(200, 0, 0);
     color: white;
     border-radius: 10px;
-    font-family: roboto, arial;
     font-size: 11px;
     padding: 2px 5px;
     position: absolute;
